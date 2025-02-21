@@ -4,7 +4,7 @@ import Section from "./Section";
 const Murious = () => {
   return (
     <Section id="muriousLink" crosses >
-      <div className="container flex flex-col lg:flex-row items-center  gap-16 md:flex-wrap md:justify-around mt-20 lg:mt-auto">
+      <div className="container flex flex-col lg:!flex-row items-center  gap-16 md:!flex-wrap md:!justify-around mt-20 lg:!mt-auto">
         <div className="lg:flex items-center flex-1 max-w-sm hidden">
           <div className="max-w-sm mx-auto flex justify-center">
             <img
