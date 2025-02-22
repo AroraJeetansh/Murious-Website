@@ -1,9 +1,9 @@
-import "../../public/css/TeamCard.css";
+import "../../public/css/TeamCard2.css";
 import "../../public/css/Team.css";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 // import { Link } from 'react-router-dom';
 
-const TeamCard = ({
+const TeamCard2 = ({
   name,
   designation,
   imageUrl,
@@ -12,7 +12,7 @@ const TeamCard = ({
 }) => {
   return (
     <div className="card-container">
-      <div className="card-content">
+      <div className="card-content-2">
         <div className="card-background"></div>
         <div className="person-image">
           <img
@@ -47,4 +47,4 @@ const TeamCard = ({
   );
 };
 
-export default TeamCard;
+export default TeamCard2;
