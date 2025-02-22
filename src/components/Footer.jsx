@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Section crosses className="!px-0 !py-10">
       <footer className="footer">
-  <div className="container">
+  <div className="footer-container">
     <div className="footer-top">
       <img
         src="https://jyc.co.in/images/logojyc%20white.png"
