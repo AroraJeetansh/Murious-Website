@@ -10,10 +10,11 @@ import Contacts from "./components/Contacts";
 import Murious from "./components/Murious";
 
 const App = () => {
+  const isDesktop = window.matchMedia("(min-width: 960px)").matches;
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <AnimatedCursor
+        {isDesktop ? <AnimatedCursor
           innerSize={8}
           outerSize={40}
           innerScale={1}
@@ -26,7 +27,8 @@ const App = () => {
           outerStyle={{
             border: "3px solid white",
           }}
-        />
+        />: "" }
+        
         <Header />
         <Hero />
         <Events />
