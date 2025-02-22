@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Dr. Naveen Jaglan",
             "designation": "Faculty Incharge",
-            "imageUrl": "./src/assets/faculty/Naveen_Jaglan.webp",
+            "imageUrl": "/faculty/Naveen_Jaglan.webp",
             "linkedinUrl": "https://www.linkedin.com/in/naveen-jaglan/"
         }
     ],
@@ -13,28 +13,28 @@
             "id": 1,
             "name": "Prof. Dr. Shruti Jain",
             "designation": "Incharge Coordinator",
-            "imageUrl": "./src/assets/faculty/Shruti_Jain.webp",
+            "imageUrl": "/faculty/Shruti_Jain.webp",
             "linkedinUrl": "https://www.linkedin.com/in/shruti-jai/"
         },
         {
             "id": 2,
             "name": "Dr. Tanmay Gupta",
             "designation": "Coordinator",
-            "imageUrl": "./src/assets/faculty/Tanmay_Gupta.webp",
+            "imageUrl": "/faculty/Tanmay_Gupta.webp",
             "linkedinUrl": "https://www.linkedin.com/in/tanmay-gupta/"
         },
         {
             "id": 3,
             "name": "Dr. Alok Kumar",
             "designation": "Coordinator",
-            "imageUrl": "./src/assets/faculty/Alok_Kumar.webp",
+            "imageUrl": "/faculty/Alok_Kumar.webp",
             "linkedinUrl": "https://www.linkedin.com/in/alok-kumar/"
         },
         {
             "id": 4,
             "name": "Prof. Aayush Sharma",
             "designation": "Coordinator",
-            "imageUrl": "./src/assets/faculty/Aayush_Sharma.webp",
+            "imageUrl": "/faculty/Aayush_Sharma.webp",
             "linkedinUrl": "https://www.linkedin.com/in/aayush-sharma/"
         }
     ],
@@ -43,7 +43,7 @@
             "id": 1,
             "name": "Srijan Saraswat",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/coordis/Srijan3w.webp",
+            "imageUrl": "/coordis/Srijan3w.webp",
             "linkedinUrl": "https://www.linkedin.com/in/srijan-saraswat/",
             "instagramUrl": "https://www.instagram.com/_.srijan_saraswat._/"
         },
@@ -51,7 +51,7 @@
             "id": 2,
             "name": "Yash Khatri",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/coordis/Yash3w.webp",
+            "imageUrl": "/coordis/Yash3w.webp",
             "linkedinUrl": "https://www.linkedin.com/in/yash--khatri/",
             "instagramUrl": "https://www.instagram.com/yashkhatri99/"
         },
@@ -59,7 +59,7 @@
             "id": 3,
             "name": "Akshit Mahajan",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/coordis/Akshit 4w.webp",
+            "imageUrl": "/coordis/Akshit 4w.webp",
             "linkedinUrl": "https://www.linkedin.com/in/akshit0mahajan/",
             "instagramUrl": "https://www.instagram.com/_akshitmahajan/"
         },
@@ -67,10 +67,9 @@
             "id": 4,
             "name": "Ayush Rawat",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/coordis/ayush3w.webp",
+            "imageUrl": "/coordis/ayush3w.webp",
             "linkedinUrl": "https://www.linkedin.com/in/ayush-rawat-519b12255/",
             "instagramUrl": "https://www.instagram.com/ayusshh_rawat/"
-
         }
     ],
 
@@ -79,7 +78,7 @@
             "id": 1,
             "name": "Nivi Jha",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/team leads/nivi jha.webp",
+            "imageUrl": "/team leads/nivi jha.webp",
             "linkedinUrl": "https://www.linkedin.com/in/nivi-jha/",
             "instagramUrl": "https://www.instagram.com/niv__._/"
         },
@@ -95,7 +94,7 @@
             "id": 3,
             "name": "Raavi Aggarwal",
             "designation": "Mentor",
-            "imageUrl": "./src/assets/team leads/raavi aggarwal.webp",
+            "imageUrl": "/team leads/raavi aggarwal.webp",
             "linkedinUrl": "https://www.linkedin.com/in/raavi-aggarwal-766ab32a4/",
             "instagramUrl": "https://www.instagram.com/raavi_aggarwal28/"
         }
@@ -105,7 +104,7 @@
             "id": 1,
             "name": "Rushil Sharma",
             "designation": "Full Stack Developer",
-            "imageUrl": "./src/assets/contributors/Rushil_Sharma.webp",
+            "imageUrl": "/contributors/Rushil_Sharma.webp",
             "linkedinUrl": "https://www.linkedin.com/in/codewithrushil/",
             "instagramUrl": "https://www.instagram.com/rushil.in/"
         },
@@ -113,7 +112,7 @@
             "id": 2,
             "name": "Manik Kapoor",
             "designation": "Javascript Developer",
-            "imageUrl": "./src/assets/contributors/Manik_Kapoor.webp",
+            "imageUrl": "/contributors/Manik_Kapoor.webp",
             "linkedinUrl": "https://www.linkedin.com/in/manik2375/",
             "instagramUrl": "https://www.instagram.com/manik_2375/"
         },
@@ -121,7 +120,7 @@
             "id": 3,
             "name": "Aarushi Kansal",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/aarushi_kansal.webp",
+            "imageUrl": "/contributors/aarushi_kansal.webp",
             "linkedinUrl": "https://www.linkedin.com/in/aarushi-kansal-12b77731a/",
             "instagramUrl": "https://www.instagram.com/aarrusshi/"
         },
@@ -129,7 +128,7 @@
             "id": 4,
             "name": "Darshita Shukla",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/Darshita_Shukla.webp",
+            "imageUrl": "/contributors/Darshita_Shukla.webp",
             "linkedinUrl": "https://www.linkedin.com/in/darshita-shukla-743510323/",
             "instagramUrl": "https://www.instagram.com/darshita_2006/"
         },
@@ -137,7 +136,7 @@
             "id": 5,
             "name": "Sharanya",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/sharanya.photo.jpg",
+            "imageUrl": "/contributors/sharanya.photo.jpg",
             "linkedinUrl": "https://www.linkedin.com/in/sharanya-srivastava-9a1669313/",
             "instagramUrl": "https://www.instagram.com/sharxsri/"
         },
@@ -145,7 +144,7 @@
             "id": 6,
             "name": "Ananya",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/Ananya.webp",
+            "imageUrl": "/contributors/Ananya.webp",
             "linkedinUrl": "https://www.linkedin.com/in/ananyasoam02",
             "instagramUrl": "https://www.instagram.com/ananya_7467"
         },
@@ -153,7 +152,7 @@
             "id": 7,
             "name": "Shoaib Malik",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/Shoaib.webp",
+            "imageUrl": "/contributors/Shoaib.webp",
             "linkedinUrl": "https://www.linkedin.com/in/shoaib-malik-7583682ba/",
             "instagramUrl": "https://www.instagram.com/shoaibmal_.k/"
         },
@@ -161,7 +160,7 @@
             "id": 8,
             "name": "Jeetansh",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/Jeetansh.webp",
+            "imageUrl": "/contributors/Jeetansh.webp",
             "linkedinUrl": "https://www.linkedin.com/in/jeetansh-arora-150863321/",
             "instagramUrl": "https://www.instagram.com/jeetxilot/"
         },
@@ -169,7 +168,7 @@
             "id": 9,
             "name": "Kundan Krishna",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/KundanW2.webp",
+            "imageUrl": "/contributors/KundanW2.webp",
             "linkedinUrl": "https://www.linkedin.com/in/kundan-krishna-991b88308/",
             "instagramUrl": "https://www.instagram.com/kundan._.krishna/"
         },
@@ -177,10 +176,9 @@
             "id": 10,
             "name": "Hardik Mittal",
             "designation": "Web Developer",
-            "imageUrl": "./src/assets/contributors/HardikW.webp",
+            "imageUrl": "/contributors/HardikW.webp",
             "linkedinUrl": "https://www.linkedin.com/in/hardik-mittal-264ba3315/",
             "instagramUrl": "https://www.instagram.com/itz_hardikkk_/"
         }
-       
     ]
 }

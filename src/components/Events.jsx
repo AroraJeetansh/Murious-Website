@@ -7,7 +7,6 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import Countdown from "./Countdown/Countdown";
 import MobileCountdown from "./Countdown/MobileCountdown";
-
 const Benefits = () => {
   return (
     <Section>
@@ -129,7 +128,7 @@ const Benefits = () => {
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
+                backgroundImage: `url("${item.backgroundUrl}")`,
               }}
               key={item.id}
             >
@@ -175,7 +174,7 @@ const Benefits = () => {
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
+                background: `url("${item.backgroundUrl}")`,
               }}
               key={item.id}
             >

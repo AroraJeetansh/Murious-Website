@@ -7,7 +7,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
-      <div className="container flex flex-col md:flex-row items-center  gap-16 md:flex-wrap md:justify-around">
+      <div className="container flex flex-col md:!flex-row items-center  gap-16 md:!flex-wrap md:justify-around">
         <div className="max-w-[25rem] flex-1">
           <h2 className="h2 mb-8 md:mb-10 text-4xl md:text-6xl">
             <span className="inline-block relative">
