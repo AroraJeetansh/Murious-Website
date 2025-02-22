@@ -22,7 +22,7 @@ const Collaboration = () => {
             </span>
           </h2>
 
-          <p className="pb-10 leading-7">
+          <p className="pb-10 leading-7 text-[17px]">
             JUIT Youth Club (JYC) is the hub of enthusiasm and growth, expanding
             students' horizons beyond academics into sports, literature,
             culture, and technology. It fosters self-expression, recognition,
