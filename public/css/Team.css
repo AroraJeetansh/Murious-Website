@@ -25,6 +25,7 @@
 
 
 .team-grid {
+    /* background-color: aqua; */
     margin: 2rem auto 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +33,6 @@
     justify-content: center;
     max-width: 1500px;
 }
-    
 .team-grid2 {
     margin: 1rem auto;
     display: grid;

@@ -1,6 +1,7 @@
 import Section from "./Section";
 import { curve } from "../assets";
 import TeamCard from "./TeamCard";
+import TeamCard2 from "./TeamCard2";
 import {
   mentors,
   teamleads,
@@ -23,9 +24,9 @@ const Pricing = () => {
 
         <div className="team-section faculty-in-charge-section">
             <h1 className="text-xl">Faculty Incharge</h1>
-            <div className="team-grid">
+            <div className="team-grid faculty-grid">
               {facultyIncharge.map((member) => (
-                <TeamCard key={member.id} {...member} />
+                <TeamCard2 key={member.id} {...member} />
               ))}
             </div>
           </div>
