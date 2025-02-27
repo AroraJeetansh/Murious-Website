@@ -19,7 +19,7 @@ const Benefits = () => {
 
 
       <div className="container relative z-2">
-        <Heading className="md:max-w-md lg:max-w-2xl" title="Events" />
+        {/* <Heading className="md:max-w-md lg:max-w-2xl" title="Events" />
         <div
           className="image-carousel-container h-svh mb-20"
           style={{
@@ -121,7 +121,7 @@ const Benefits = () => {
               className="h-full w-full object-cover"
             />
           </Carousel>
-        </div>
+        </div> */}
         <Heading className="md:max-w-md lg:max-w-2xl" title="Student Events" />
         <div className="flex flex-wrap gap-10 mb-10 justify-center">
           {studentEvents.map((item) => (
