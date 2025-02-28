@@ -1,7 +1,10 @@
 import { studentEvents, facultyEvents } from "../constants";
 import { Carousel, IconButton } from "@material-tailwind/react";
+import { curve } from "../assets";
 import Heading from "./Heading";
 import Section from "./Section";
+import Button from "./Button";
+import { hackathonImage } from "../assets";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
@@ -10,13 +13,12 @@ import MobileCountdown from "./Countdown/MobileCountdown";
 const Benefits = () => {
   return (
     <Section>
-      <div  className="hidden 2xl:block mt-4 mb-24" >
-        <Countdown/>
+      <div className="hidden 2xl:block mt-4 mb-24">
+        <Countdown />
       </div>
-      <div  className="2xl:hidden mt-8 mb-24" >
-        <MobileCountdown/>
+      <div className="2xl:hidden mt-8 mb-24">
+        <MobileCountdown />
       </div>
-
 
       <div className="container relative z-2">
         {/* <Heading className="md:max-w-md lg:max-w-2xl" title="Events" />
@@ -123,7 +125,58 @@ const Benefits = () => {
           </Carousel>
         </div> */}
         <Heading className="md:max-w-md lg:max-w-2xl" title="Student Events" />
-        <div className="flex flex-wrap gap-10 mb-10 justify-center">
+        <div className=" flex flex-wrap gap-10 mb-10 justify-center">
+          <div className=" relative flex w-full flex-col items-center mb-16 bg-n-7 p-5 py-14 border-2 border-n-5">
+            <h3 className="h3 mb-12 ">
+              {` `}
+              <span className="inline-block relative">
+                Hackvortex{" "}
+                <img
+                  src={curve}
+                  className="absolute top-full left-0 w-full xl:-mt-2"
+                  width={624}
+                  height={28}
+                  alt="Curve"
+                />
+              </span>
+            </h3>
+            <p className="text-xl max-w-4xl text-center">
+              The <strong>HackVortex</strong> hackathon, most awaited event of
+              Murious. a <strong>18-hours </strong>
+              long &quot;hackathon&quot; where juitians will come together in
+              teams of <strong>2-4 members</strong> to create solutions for
+              real-life problems, expect challenges in tech and creative mix of
+              brainy fun! <br />
+              <br />
+              Push your limits, Innovate, and bring your ideas to life. with
+              mentorship. brainstorming sessions, and exciting problem
+              statements, this is your chance to shine. collaborate with
+              like-minded peers and experience the thrill of building something
+              impactful.
+              <br />
+              <br />
+              Let&apos;s sit, play, eat, chill, and work to create the best we
+              can!
+            </p>
+            <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-[.18]">
+              <img
+                src={
+                  hackathonImage
+                }
+                width={380}
+                height={362}
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <Button
+              href="https://example.com"
+              className="text-xl mt-6 "
+            >
+                 Problem Statements
+            </Button>
+          </div>
           {studentEvents.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -136,7 +189,6 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-            
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
@@ -177,7 +229,6 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
@@ -203,7 +254,7 @@ const Benefits = () => {
               <ClipPath />
             </div>
           ))}
-        </div>  
+        </div>
       </div>
     </Section>
   );
