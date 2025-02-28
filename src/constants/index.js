@@ -41,7 +41,8 @@ import {
   benefitCard3,
   benefitCard4,
   benefitCard5,
-  benefitCard6
+  benefitCard6,
+  
 } from "../assets";
 
 export const navigation = [

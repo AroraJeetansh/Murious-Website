@@ -80,6 +80,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 import contacts from "./contacts/contacts.json"
+import hackathonImage from "./hackathon-image.jpg"
 
 export {
   brainwave,
@@ -153,5 +154,6 @@ export {
   twitter,
   jycLogo,
   muriousLogo,
-  contacts
+  contacts,
+  hackathonImage
 };
